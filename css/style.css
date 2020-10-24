@@ -1,0 +1,192 @@
+/* =========================
+
+TABLE OF CONTENTS
+
+01. RESET
+02. NAVIGATION
+03. BANNER BIO
+04. PROJECTS
+
+========================= */ 
+
+
+/* =========================
+
+RESET
+
+========================= */ 
+
+body{
+ padding: 0px; 
+ margin: 0px;
+ font-family: "Helvetica";  
+}
+
+/* =========================
+
+NAVIGATION
+
+========================= */ 
+
+.nav-wrapper{
+  display: flex;
+  background-color: #333;
+  padding: 10px 30px;
+  align-items: center;
+  color: #fff;    
+}
+
+.branding{
+  flex:5;
+}
+
+.nav{
+  text-align: right;
+}
+
+.nav a {
+  color:white;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  color:green;
+
+}
+
+.menu{
+  text-align: right;
+}
+
+.menu li{
+  display: inline;
+  padding: 20px;  
+}
+
+/* =========================
+
+BANNER BIO
+
+========================= */ 
+
+
+#banner{
+  display: flex;
+  align-items: center;
+  background: #f7f7f7;
+  height: 50vh;
+  min-height: 550px;
+  padding: 50px
+}
+
+.portrait{
+  flex: 5;
+  text-align: center;
+}
+
+.portrait img{
+  max-width: 350px;
+
+  border-radius: 15px;
+  border: solid 6px #fff;
+  box-shadow: 20px 20px 50px rgba(0,0,0,0.3);
+  filter: grayscale(50%);
+}
+
+.bio{
+  flex:5;
+}
+
+.bio .eyebrow{
+  font-size: 12px;
+}
+
+.bio h2{
+  font-size: 54px;
+  font-weight: 700;
+  letter-spacing: -0.05em;
+  margin: 0px;
+}
+
+
+/* =========================
+
+PROJECTS
+
+========================= */ 
+
+#projects{
+  display: flex;
+}
+
+.project {
+  flex: 3;
+  background-color:#111;
+  padding: 100px 30px;
+  text-align: center;
+  border: solid 1px #222; 
+  color: white;
+}
+
+.overlay{
+border: 2px solid grey;
+background-color:rgba(0,0,0,0.8);
+padding-bottom:20px;
+}
+
+#project-01{
+  background: url("https://restaurant.eatapp.co/hs-fs/hubfs/Best-restaurant-website-design-inspirations_4_michiramen-3%20(1).jpg?width=1024&name=Best-restaurant-website-design-inspirations_4_michiramen-3%20(1).jpg");
+  background-size: cover;
+  background-position: center;
+  
+}
+
+#project-02{
+  background: url("https://images-wixmp-530a50041672c69d335ba4cf.wixmp.com/templates/image/01e9d93a54b671ba3a29960da27cc788209d520a588b4d0fc789c059b01b17e8.jpg ");
+  background-size: cover;
+  background-position: center;
+}
+
+#project-03{
+  background: url("https://hogash.com/wp-content/uploads/2017/08/dannys-restaurant-wordpress-theme-0a.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#project-04{
+  background: url("https://www.intechnic.com/hs-fs/hubfs/Imported_Blog_Media/Best-restaurant-website-design-inspirations_2_cr-ele-3.jpg?width=1024&height=512&name=Best-restaurant-website-design-inspirations_2_cr-ele-3.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+/* =========================
+
+MEDIA QUERIES
+
+========================= */ 
+
+@media only screen and (max-width: 900px) {
+
+  #banner{
+      -webkit-flex-direction: column;
+      flex-direction: column;
+      height: auto;
+  }
+
+  .portrait img{
+    width: 50%;
+    max-width: 350px;
+  }
+
+  .bio{
+    text-align: center;
+  }
+
+  #projects{
+      -webkit-flex-direction: column;
+      flex-direction: column;
+  }
+
+}
+
+
