@@ -7,11 +7,19 @@ test our chops. I had a difficult time reatining information on flexbox, it's us
 The projects that are featured in this portfolio aren't current as of 10/24/2020, but they will continue to be updated as the boot camp moves forward. 
 
 I'm not in complete understanding yet on how to launch a website to a live URL, nor am I fully confident in organization of files through my github, but i feel confident that with 
-practice I'll be able to become more efficient. 
+practice I'll be able to become more efficient.  on Friday night, i moved my computer from locations and lost all of my html file. I had to start from scratch with 24 hours left to 
+turn in my work. 
 
 
-# Brennan Predmore React Portfolio
-![Screenshot](public/assets/readMeScreenShot.png)
+I utilized simple coding structures to create a header, a main section and footer where my "projects" could live. When users click on the links in the header, they are to be redirected to 
+the bottom of the page where future projects will be available. 
+
+
+
+# Issac Loya Portfolio
+![Screenshot](https://github.com/misterloya/HW2/blob/main/img/Screenshot%20(53).png
+![Screenshot](https://github.com/misterloya/HW2/blob/main/img/Screenshot%20(55).png
+
 ## Github pages 
 This is where the main website will be launched 
 ## Langauges Used
@@ -23,4 +31,3 @@ Please make sure to update tests as appropriate.
 
 ## Link
 https://github.com/misterloya/HW2
-https://brennan-predmore-portfolio.herokuapp.com/
