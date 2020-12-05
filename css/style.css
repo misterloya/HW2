@@ -84,6 +84,7 @@ BANNER BIO
 .portrait{
   flex: 5;
   text-align: center;
+  padding-left: 346px;
 }
 
 .portrait img{
@@ -95,9 +96,11 @@ BANNER BIO
   filter: grayscale(50%);
 }
 
-.bio{
-  flex:5;
-  padding: 10px;
+.bio {
+  flex: 10;
+  padding-right: 250px;
+  padding-left: 157px;
+  width: 250px;
 }
 
 .bio .eyebrow{
@@ -122,6 +125,7 @@ PROJECTS
 #projects{
   display: flex;
   background-color: #333;
+  justify-content: space-between;
 }
 
 .projectBanner {
