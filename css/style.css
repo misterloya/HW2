@@ -97,10 +97,12 @@ BANNER BIO
 
 .bio{
   flex:5;
+  padding: 10px;
 }
 
 .bio .eyebrow{
   font-size: 12px;
+  
 }
 
 .bio h2{
