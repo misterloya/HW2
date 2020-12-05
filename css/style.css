@@ -38,6 +38,7 @@ NAVIGATION
 
 .branding{
   flex:5;
+  text-shadow: 2px 3px black; 
 }
 
 .nav{
@@ -47,7 +48,9 @@ NAVIGATION
 .nav a {
   color:white;
   text-decoration: none;
+  text-shadow: 2px 2px black; 
 }
+
 
 .nav a:hover {
   color:green;
@@ -76,7 +79,6 @@ BANNER BIO
   background: #f7f7f7;
   height: 50vh;
   min-height: 550px;
-  padding: 50px
 }
 
 .portrait{
@@ -119,6 +121,14 @@ PROJECTS
   display: flex;
 }
 
+.projectBanner {
+  text-align: center;
+  color: white; 
+  text-shadow: 2px 4px black; 
+  padding: 2px;
+  background-color: #333;
+}
+
 .project {
   flex: 3;
   background-color:#111;
@@ -126,6 +136,7 @@ PROJECTS
   text-align: center;
   border: solid 1px #222; 
   color: white;
+
 }
 
 .overlay{
