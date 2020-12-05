@@ -121,6 +121,7 @@ PROJECTS
 
 #projects{
   display: flex;
+  background-color: #333;
 }
 
 .projectBanner {
@@ -138,6 +139,7 @@ PROJECTS
   text-align: center;
   border: solid 1px #222; 
   color: white;
+  text-shadow: 2px 2px black;
 
 }
 
@@ -148,29 +150,33 @@ padding-bottom:20px;
 }
 
 #project-01{
-  background: url("https://restaurant.eatapp.co/hs-fs/hubfs/Best-restaurant-website-design-inspirations_4_michiramen-3%20(1).jpg?width=1024&name=Best-restaurant-website-design-inspirations_4_michiramen-3%20(1).jpg");
+  background: url("https://image.freepik.com/free-photo/woman-working-laptop-nature_53876-82407.jpg") ;
   background-size: cover;
   background-position: center;
+  filter: sepia(25%);
+  margin: 3px;
   
 }
 
 #project-02{
-  background: url("https://images-wixmp-530a50041672c69d335ba4cf.wixmp.com/templates/image/01e9d93a54b671ba3a29960da27cc788209d520a588b4d0fc789c059b01b17e8.jpg ");
+  background: url("https://image.freepik.com/free-photo/beautiful-woman-holding-umbrella_107420-12294.jpg");
   background-size: cover;
   background-position: center;
+  margin: 3px;
 }
 
 #project-03{
-  background: url("https://hogash.com/wp-content/uploads/2017/08/dannys-restaurant-wordpress-theme-0a.jpg");
+  background: url("https://image.freepik.com/free-photo/couple-tourists-with-backpacks-mountain_1150-7520.jpg");
   background-size: cover;
   background-position: center;
+  margin: 3px;
 }
 
-#project-04{
+/* #project-04{
   background: url("https://www.intechnic.com/hs-fs/hubfs/Imported_Blog_Media/Best-restaurant-website-design-inspirations_2_cr-ele-3.jpg?width=1024&height=512&name=Best-restaurant-website-design-inspirations_2_cr-ele-3.jpg");
   background-size: cover;
   background-position: center;
-}
+} */
 
 /* =========================
 
