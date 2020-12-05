@@ -1,20 +1,4 @@
-/* =========================
 
-TABLE OF CONTENTS
-
-01. RESET
-02. NAVIGATION
-03. BANNER BIO
-04. PROJECTS
-
-========================= */ 
-
-
-/* =========================
-
-RESET
-
-========================= */ 
 
 body{
  padding: 0px; 
@@ -62,8 +46,24 @@ NAVIGATION
 }
 
 .menu li{
-  display: inline;
-  padding: 20px;  
+    display: inline;
+    padding: 20px;  
+    color: rgb(255, 255, 255);
+     font-size: 21px; 
+     line-height: 21px; 
+     padding: 8px; 
+     border-radius: 17px; 
+     font-family: Georgia, serif; 
+     font-weight: normal; text-decoration: none; 
+     font-style: normal; font-variant: normal; text-transform: none; 
+     background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%); 
+     box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px;
+      border: 2px solid rgb(28, 110, 164); 
+     display: inline-block;}
+    .myButton:hover {
+    background: #1C6EA4; }
+    .myButton:active {
+    background: #144E75; }
 }
 
 /* =========================
