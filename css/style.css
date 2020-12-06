@@ -51,13 +51,13 @@ NAVIGATION
     color: rgb(255, 255, 255);
      font-size: 21px; 
      line-height: 21px; 
-     padding: 8px; 
-     border-radius: 17px; 
+     padding: 2px; 
+     border-radius: 4px; 
      font-family: Georgia, serif; 
      font-weight: normal; text-decoration: none; 
      font-style: normal; font-variant: normal; text-transform: none; 
-     background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%); 
-     box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px;
+     /* background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%);  */
+     /* box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px; */
       border: 2px solid rgb(28, 110, 164); 
      display: inline-block;}
     .myButton:hover {
@@ -125,14 +125,22 @@ PROJECTS
   font-size: 1.25rem;
   opacity: 100%;
 }
+.carousel {
+  position: relative;
+  background-color: #333;
+}
+
 .carousel-inner {
   position: relative;
   /* width: 100%; */
   /* overflow: hidden; */
-  width: 75%;
+  width: 51%;
   padding: 50px 0 50px 0;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 7%;
+  border: 9px solid white;
+  box-shadow: -4px -3px 45px 21px rgba(0,0,0,0.35);
 }
 
 .carousel-caption {
@@ -177,10 +185,11 @@ PROJECTS
 
 
 
-#projects{
+#projects {
   display: flex;
   background-color: #333;
   justify-content: space-between;
+  padding: 20px;
 }
 
 .projectBanner {
