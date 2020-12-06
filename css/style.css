@@ -172,7 +172,7 @@ PROJECTS
 
 .crt-widget.crt-widget-branded {
   padding-bottom: 25px;
-  filter: drop-shadow(0px 2px 3.2px black);
+  filter: drop-shadow(0px 2px 3.2px #333);
 }
 
 
