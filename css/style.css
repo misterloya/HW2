@@ -161,8 +161,21 @@ PROJECTS
 
  
 .instagram {
-  padding: 20px
+  padding: 15px 25px 100px 25px;
+  
 }
+
+#insta {
+  text-align: center;
+  text-decoration:underline;
+}
+
+.crt-widget.crt-widget-branded {
+  padding-bottom: 25px;
+  filter: drop-shadow(0px 2px 3.2px black);
+}
+
+
 
 #projects{
   display: flex;
