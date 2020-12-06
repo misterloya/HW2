@@ -81,15 +81,6 @@ BANNER BIO
   min-height: 550px;
 }
 
-/* .carousel-item {  
-
-display:flex;
-justify-content:center;
-background: #333333;
-padding-bottom:20px; 
-filter: drop-shadow(0px 10px 3px black);
-
-} */
 
 .portrait{
   flex: 5;
@@ -130,6 +121,44 @@ filter: drop-shadow(0px 10px 3px black);
 PROJECTS
 
 ========================= */ 
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  width: fit-content;
+  padding: 12px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carousel-item-active{
+position: relative;
+width: 100%;
+overflow: hidden;
+width: fit-content;
+padding: 12px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.carousel-item{
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  width: fit-content;
+  padding: 12px;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+  .carousel-control-prev-icon{
+    background-color: #333;
+  }
+
+  .carousel-control-next-icon{
+    background-color: #333;
+  }
+
 
 #projects{
   display: flex;
