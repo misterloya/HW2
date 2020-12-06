@@ -121,35 +121,35 @@ BANNER BIO
 PROJECTS
 
 ========================= */ 
+.h5, h5 {
+  font-size: 1.25rem;
+  opacity: 100%;
+}
 .carousel-inner {
   position: relative;
-  width: 100%;
-  overflow: hidden;
-  width: fit-content;
-  padding: 12px;
+  /* width: 100%; */
+  /* overflow: hidden; */
+  width: 75%;
+  padding: 50px 0 50px 0;
   margin-left: auto;
   margin-right: auto;
 }
 
-.carousel-item-active{
-position: relative;
-width: 100%;
-overflow: hidden;
-width: fit-content;
-padding: 12px;
-margin-left: auto;
-margin-right: auto;
+.carousel-caption {
+  position: absolute;
+  right: 15%;
+  bottom: 20px;
+  left: 15%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+  background-color: #333;
+  text-align: center;
+  border-radius: 20px;
+  height: 16%;
+  opacity: 92%;
 }
-
-.carousel-item{
-  position: relative;
-  width: 100%;
-  overflow: hidden;
-  width: fit-content;
-  padding: 12px;
-  margin-left: auto;
-  margin-right: auto;
-  }
 
   .carousel-control-prev-icon{
     background-color: #333;
@@ -157,8 +157,12 @@ margin-right: auto;
 
   .carousel-control-next-icon{
     background-color: #333;
-  }
+  } 
 
+ 
+.instagram {
+  padding: 20px
+}
 
 #projects{
   display: flex;
@@ -261,7 +265,7 @@ MEDIA QUERIES
   .bio {
       text-align: center;
       padding: 12px 15px 0 15px;
-      padding -webkit-transform-origin-y: top;
+      padding : top;
   }
 
   #projects{
